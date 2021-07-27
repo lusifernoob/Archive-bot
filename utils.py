@@ -41,19 +41,19 @@ class Msg:
 
     def start(msg: Message) -> str:
         """ return start-message text """
-        txt = f"Hey {msg.from_user.mention}!\n" \
-              "\nI can compress files in to an archive.🤐" \
-              "\nJust send /zip, and follow the instructions."
-                "\nCreate @shado_hackers support @OMG_info"
+        txt = f"Hey👋 {msg.from_user.mention}!\n" \
+              "\nI can compress files in to an archive 🤐." \
+              "\nJust send /zip, and follow the instructions📜 ." \
+              "\ncreate @shado_hackers support @OMG_info"
         return txt
 
-    zip = "Send the files you want to compress, and at the end send /stopzip after all the files have been downloaded.\n" \
+    zip = "Send the files you want to compress, 🗜️and at the end send /stopzip after all the files have been downloaded.\n" \
           "\n\nNote: due to upload limit, the total size of the file(s) can be at most 1GB."
     too_big = "Note: due to upload limit, the total size of the file(s) can be at most 1GB."
     too_much = "Note: the total number of the files can be at most 500"
-    send_zip = "Send /zip to compress the files🗜️"
-    zipping = "🕣start compressing {} files...🕝"
-    uploading = "📤uploading archive📤..."
-    unknow_error = "🚫An unknown error occurred🚫"
-    downloading = "📥downloading...📥"
-    zero_files = "🔍No files were sent"
+    send_zip = "Send /zip to compress the files"
+    zipping = "🕣start compressing {} files..."
+    uploading = "📤uploading archive...📤"
+    unknow_error = "🚫An unknown error occurred"
+    downloading = "📥downloading..."
+    zero_files = "🔍No files were sent".
