@@ -44,7 +44,7 @@ class Msg:
         txt = f"Hey {msg.from_user.mention}!\n" \
               "\nI can compress files in to an archive.🤐" \
               "\nJust send /zip, and follow the instructions."
-                "Create @shado_hackers support @OMG_info"
+                "\nCreate @shado_hackers support @OMG_info"
         return txt
 
     zip = "Send the files you want to compress, and at the end send /stopzip after all the files have been downloaded.\n" \
